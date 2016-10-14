@@ -19,7 +19,7 @@ public class keyboardscanner {
 		
 		System.out.print("Hi "+name+", the multipilcation of "+intnumber+" and "+floatnumber+" is ");
 		System.out.printf("%e",intnumber*floatnumber);
-
+		keyboard.close();
 	}
 
 }

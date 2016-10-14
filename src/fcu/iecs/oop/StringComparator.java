@@ -21,6 +21,7 @@ public class StringComparator
 		{
 			System.out.println("The two string are not same.");
 		}
+		keyboard.close();
 	}
 
 }

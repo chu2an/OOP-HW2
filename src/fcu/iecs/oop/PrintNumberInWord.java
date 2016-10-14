@@ -47,6 +47,7 @@ public class PrintNumberInWord
 				System.out.print("The input integer is 台灣大車隊");
 				break;
 		}
+		keyboard.close();
 	}
 
 }
