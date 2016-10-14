@@ -9,17 +9,21 @@ public class StringComparator
 	{
 		Scanner keyboard=new Scanner(System.in);
 		String saa,sbb;
-		System.out.print("Enter a string 1 :");
-		saa=keyboard.next();
-		System.out.print("Enter a string 2 :");
-		sbb=keyboard.next();
-		if(saa.compareToIgnoreCase(sbb)==0)
+		while(true)
 		{
-			System.out.println("The two string are same.");
-		}
-		else
-		{
-			System.out.println("The two string are not same.");
+			System.out.print("Enter a string 1 :");
+			saa=keyboard.next();
+			System.out.print("Enter a string 2 :");
+			sbb=keyboard.next();
+			if(saa.compareToIgnoreCase(sbb)==0)
+			{
+				System.out.println("The two string are same.");
+				break;
+			}
+			else
+			{
+				System.out.println("The two string are not same.");
+			}
 		}
 		keyboard.close();
 	}
